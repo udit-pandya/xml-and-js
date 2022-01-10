@@ -1,1 +1,1 @@
--- Upon dragging the xml file to MS Excel, it automatically formatted the data in the xml format itself in the sheets.
+Upon dragging the xml file to MS Excel, it automatically formatted the data in the xml format itself in the sheets.
