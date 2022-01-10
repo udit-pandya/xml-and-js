@@ -1,0 +1,1 @@
+-- The structure in the activity-one-2.xml is a base model. Following this model, data will be added in this format since it will be much easier to parse required data.

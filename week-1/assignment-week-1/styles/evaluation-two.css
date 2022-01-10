@@ -1,0 +1,11 @@
+form {
+    background-color: blanchedalmond;
+    width: fit-content;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.comment {
+    height: 100px;
+    width: 300px;
+}

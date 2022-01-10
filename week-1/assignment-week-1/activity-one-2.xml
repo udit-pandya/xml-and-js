@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema>
+    <userName>
+        <uid></uid>
+        <fname></fname>
+        <lname></lname>
+        <address></address>
+    </userName>
+    <college>
+        <institution></institution>
+        <program></program>
+        <category></category>
+        <role></role>
+    </college>
+    <interest>
+        <title></title>
+        <description></description>
+    </interest>
+</schema>

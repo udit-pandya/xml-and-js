@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Evaluation 2</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles/evaluation-two.css">
+    </head>
+    <body>
+        <form>
+            <span>Your Email *:</span>
+            <input id="email" type="text"/><br><br>
+            <span>Date of Visit: </span>
+            <input id="date" type="text" placeholder="mm/dd/yyyy"/><br><br>
+            <span>Your Comment: </span><br>
+            <textarea id="comment" rows="10" cols="40"></textarea><br><br>
+            <input type="button" value="Send your Feedback" onclick="submitFeedBack()"/>
+        </form>
+        <h3 id="mEmail"></h3>
+        <h3 id="mDate"></h3>
+        <h3 id="mComment"></h3>
+        <script>
+            function submitFeedBack() {
+                document.getElementById('mEmail').innerHTML = 'Email : ' + document.getElementById('email').value;
+                document.getElementById('mDate').innerHTML = 'Date : ' + document.getElementById('date').value;
+                document.getElementById('mComment').innerHTML = 'Comments : ' + document.getElementById('comment').value;
+            }
+        </script>
+    </body>
+</html>
