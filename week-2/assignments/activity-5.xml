@@ -1,37 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE products
+[
+  <!ELEMENT products (product+)>
+  <!ELEMENT product (productName, manufacturer, description?, prices, productItems)>
+  <!ELEMENT productName (#PCDATA)>
+  <!ELEMENT manufacturer (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT productItems (#PCDATA)>
+  <!ELEMENT prices (price+)>
+  <!ELEMENT price (#PCDATA)>
+]>
 <products>
   <product>
-    <product Name>Dog Shirt Gift Basket</product Name>
-    <manufacturer>SJB Pet BoutiqueSYMBOLHERE</manufacturer>
+    <productName>Dog Shirt Gift Basket</productName>
+    <manufacturer>SJB Pet Boutique&#153;</manufacturer>
     <description>Something for every day of the week</description>
-    <price>US$35.99</price>
-    <price>CAD$44.99</price>
-    <price>&#8364;26.79</price>
+    <prices>
+      <price>US$35.99</price>
+      <price>CAD$44.99</price>
+      <price>&#8364;26.79</price>
+    </prices>
     <productItems>1200, 1201, 1202, 1203, 1204, 1205, 1206</productItems>
   </product>
   <product>
-    <product Name>Car Curiosity Basket</product Name>
-    <manufacturer>SJB Pet BoutiqueSYMBOLHERE</manufacturer>
+    <productName>Car Curiosity Basket</productName>
+    <manufacturer>SJB Pet Boutique&#153;</manufacturer>
     <description>Playtime morning, noon, and night</description>
-    <price>US$15.99</price>
-    <price>CAD$18.82</price>
-    <price>&#8364;11.90</price>
+    <prices>
+      <price>US$15.99</price>
+      <price>CAD$18.82</price>
+      <price>&#8364;11.90</price>
+    </prices>
     <productItems>4430, 6500, 4434</productItems>
   </product>
   <product>
-    <product Name>Piggy Snuggle Basket</product Name>
-    <manufacturer>ACMESYMBOLHERE</manufacturer>
-    <price>US$17.50</price>
-    <price>CAD$21.96</price>
-    <price>&#8364;13.03</price>
+    <productName>Piggy Snuggle Basket</productName>
+    <manufacturer>ACME&#153;</manufacturer>
+    <prices>
+      <price>US$17.50</price>
+      <price>CAD$21.96</price>
+      <price>&#8364;13.03</price>  
+    </prices>
     <productItems>3230, 3232</productItems>
   </product>
   <product>
-    <product Name>Dog Snuggle Basket</product Name>
-    <manufacturer>ACMESYMBOLHERE</manufacturer>
-    <price>US$14.25</price>
-    <price>CAD$17.88</price>
-    <price>&#8364;10.61</price>
+    <productName>Dog Snuggle Basket</productName>
+    <manufacturer>ACME&#153;</manufacturer>
+    <prices>
+      <price>US$14.25</price>
+      <price>CAD$17.88</price>
+      <price>&#8364;10.61</price>
+    </prices>
     <productItems>3230, 3232, 3250</productItems>
   </product>
 </products>
