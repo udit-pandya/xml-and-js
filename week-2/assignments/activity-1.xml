@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customer>
+    <name>Udit Pandya</name>
+    <details>
+        <phone_numbers>
+            <phone_number type="home">+1 (415) 555-1234</phone_number>
+            <phone_number type="work">+1 (800) 555-9867</phone_number>
+            <phone_number type="mobile">+1 (510) 555-1212</phone_number>
+        </phone_numbers>
+        <email>joe@joe.com</email>
+    </details>
+</customer>
