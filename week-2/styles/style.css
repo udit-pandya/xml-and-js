@@ -1,0 +1,20 @@
+menuInfo {
+    background-color: blanchedalmond;
+}
+
+title {
+    display: block;
+}
+
+summary {
+    display: block;
+}
+
+originalName {
+    font-size: 25px;
+    display: block;
+}
+
+category {
+    display: block;
+}
