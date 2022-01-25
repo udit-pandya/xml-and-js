@@ -1,0 +1,13 @@
+<!ELEMENT products (product+)>
+<!ELEMENT product (productName, manufacturer, description?, prices, productItems)>
+<!ELEMENT productName (#PCDATA)>
+<!ATTLIST productName company CDATA #REQUIRED>
+<!ELEMENT manufacturer (#PCDATA)>
+<!ATTLIST manufacturer name CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description length CDATA #REQUIRED>
+<!ELEMENT prices (price)+>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency CDATA #IMPLIED> 
+<!ELEMENT productItems (#PCDATA)>
+<!ATTLIST productItems items CDATA #IMPLIED>
