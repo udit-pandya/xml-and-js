@@ -4,6 +4,7 @@
 2. Create `week-4/assignments/activity-4.xsl` and link `week-4/assignments/activity-4.xml` to it
 3. Add 2 tables from description below
 4. Open `week-4/assignments/activity-4.xml` in browser (using `http-server`) and screenshot output of your file and save it as `week-4/assignments/activity-4.png`
+[activity-4](./activity-4.png)
 
 ## Table 1
 
