@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Activity 1</title>
+        <script language="JavaScript">
+            function testResults(event) {
+                event.preventDefault();
+
+                const form = event.target;
+                console.log('Form Submission',form)
+
+                const inputControl = form.inputbox;  
+                inputControl.value = "";
+            }
+        </script>
+    </head>
+    <body>
+        <form onSubmit="return testResults(event)" action="" method="post">
+            Fill this form </br>
+            <input type="text" name="inputbox" value="" placeholder="Full name" required /> </br>        
+            Toppings </br>           
+            <input type="checkbox" id="flakes" name="toppings" value="chillyFlakes">
+            <label for="topping1">Chilly Flakes</label><br>
+            <input type="checkbox" id="olives" name="toppings" value="blackOlives">
+            <label for="topping2">Black olives</label><br>
+            Pizza Base </br>           
+            <input type="radio" id="thin_crust" name="base" value="thinCrust">
+            <label for="base1">Think Crust</label><br>
+            <input type="radio" id="hand_tossed" name="base" value="handTossed">
+            <label for="base2">Hand Tossed</label><br>            
+            <button type="submit">Submit</button>
+          </form>
+    </body>
+</html>

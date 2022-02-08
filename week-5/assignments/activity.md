@@ -7,3 +7,5 @@ Create html form with the following inputs:
 - checkbox group
 
 add submit button and onSubmit form handler that would console.log form submission
+
+![form-submission](./form-submission.png)
