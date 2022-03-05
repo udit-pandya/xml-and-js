@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project 1</title>
+        <style type="text/css">
+            th,td {
+              padding: 0 15px;
+            }
+
+            button {
+                margin: 10px;
+            }
+
+            h4 {
+                margin: 5px;
+            }
+          </style>
+    </head>
+    <body>
+        <form onreset="return resetTable()">
+            <input
+              type="text"
+              name="value"
+              id="input-term"
+              placeholder="enter value"
+            />
+            <select name="filters" id="filter">
+                <option value="none">None</option>
+                <option value="name">Name</option>
+                <option value="contact">Contact</option>
+            </select><br>
+            <h4>Gender</h4>
+            <fieldset id="genderField">
+                <input type="radio" id="none" name="gender" value="None" checked="checked">
+                <label for="none">None</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br>
+            </fieldset>
+            <h4>Department</h4>
+            <fieldset>
+                <input type="checkbox" id="dept_it" name="dept" value="Information Technology">            
+                <label for="information_technology">Information Technology</label>
+                <input type="checkbox" id="dept_cse" name="dept" value="Computer Science">            
+                <label for="computer_science">Computer Science</label>
+                <input type="checkbox" id="dept_bs" name="dept" value="Business">            
+            <label for="business">Business</label><br>
+            </fieldset>
+            <h4>Contact Type</h4>
+            <fieldset>
+                <input type="checkbox" id="contact_mobile" name="cnt" value="mobile">            
+                <label for="mobile">Mobile</label>
+                <input type="checkbox" id="contact_home" name="cnt" value="home">            
+                <label for="home">Home</label>
+                <input type="checkbox" id="contact_office" name="cnt" value="office">            
+                <label for="office">Office</label><br>
+            </fieldset>
+            <button type="submit">Apply filters</button><br>
+            <button type="reset">Reset</button>     
+          </form>
+        <table id="table-main">
+            <tr>
+                <th>Emp ID</th>
+                <th>Full Name</th>
+                <th>Department</th>
+                <th>Dept ID</th>
+                <th>Salary</th>
+                <th>Currency</th>
+                <th>Contact</th>
+                <th>Contact Type</th>
+                <th>Gender</th>
+            </tr>
+        </table>
+        <script type="text/javascript" src="./employee.js" ></script>
+    </body>
+</html>

@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<class>
+  <employee empId="001">
+    <fullName>Amrendra Bahubali</fullName>
+    <departmentName deptId="1">Information Technology</departmentName>
+    <salary currency="CAD">$12000</salary>
+    <contact type="mobile">1183285028</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="002">
+    <fullName>Bill Chad</fullName>
+    <departmentName deptId="2">Computer Science</departmentName>
+    <salary currency="USD">$9000</salary>
+    <contact type="mobile">8684930485</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="003">
+    <fullName>Charlie Ken</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="AUS">$15000</salary>
+    <contact type="home">2940124840</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="004">
+    <fullName>Dolly Bindra</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="CAD">$29000</salary>
+    <contact type="office">8329503028</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="005">
+    <fullName>Ernie Girould</fullName>
+    <departmentName deptId="1">Information Technology</departmentName>
+    <salary currency="USD">$9000</salary>
+    <contact type="mobile">1283609303</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="006">
+    <fullName>Fanshawe</fullName>
+    <departmentName deptId="1">Information Technology</departmentName>
+    <salary currency="AUS">$11000</salary>
+    <contact type="office">2758493058</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="007">
+    <fullName>Garry Linkon</fullName>
+    <departmentName deptId="2">Computer Science</departmentName>
+    <salary currency="USD">$90000</salary>
+    <contact type="home">3855748691</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="008">
+    <fullName>Hillary Clinton</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="CAD">$50000</salary>
+    <contact type="mobile">3375738590</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="009">
+    <fullName>Igor Idol</fullName>
+    <departmentName deptId="1">Information Technology</departmentName>
+    <salary currency="CAD">$49000</salary>
+    <contact type="mobile">1385930578</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="010">
+    <fullName>Jempsted</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="USD">$29000</salary>
+    <contact type="home">3859403859</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="011">
+    <fullName>Kevin Thomas</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="USD">$39521</salary>
+    <contact type="office">3476859309</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="012">
+    <fullName>Larry Page</fullName>
+    <departmentName deptId="2">Computer Science</departmentName>
+    <salary currency="AUS">$79000</salary>
+    <contact type="office">3859295920</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="013">
+    <fullName>Manali Patel</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="USD">$49000</salary>
+    <contact type="office">9068504930</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="014">
+    <fullName>Nilamber Bellisimo</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="USD">$32000</salary>
+    <contact type="home">7768439693</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="015">
+    <fullName>Oleksi Kachan</fullName>
+    <departmentName deptId="1">Information Technology</departmentName>
+    <salary currency="AUS">$33000</salary>
+    <contact type="mobile">6703859321</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="016">
+    <fullName>Priya Bhatt</fullName>
+    <departmentName deptId="2">Computer Science</departmentName>
+    <salary currency="USD">$15000</salary>
+    <contact type="home">2293221921</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="017">
+    <fullName>Queen Park</fullName>
+    <departmentName deptId="2">Computer Science</departmentName>
+    <salary currency="CAD">$102000</salary>
+    <contact type="mobile">2205849302</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="018">
+    <fullName>Rory Burns</fullName>
+    <departmentName deptId="1">Information Technology</departmentName>
+    <salary currency="CAD">$12100</salary>
+    <contact type="mobile">4456347694</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="019">
+    <fullName>Sharma Rohit</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="AUS">$60000</salary>
+    <contact type="office">3940205820</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="020">
+    <fullName>Temba Bavuma</fullName>
+    <departmentName deptId="1">Information Technology</departmentName>
+    <salary currency="AUS">$45000</salary>
+    <contact type="mobile">3849502842</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="021">
+    <fullName>Udit Pandya</fullName>
+    <departmentName deptId="1">Information Technology</departmentName>
+    <salary currency="CAD">$39000</salary>
+    <contact type="office">7748396047</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="022">
+    <fullName>Virat Kohli</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="AUS">$119000</salary>
+    <contact type="mobile">3345860291</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="023">
+    <fullName>Washington Sundar</fullName>
+    <departmentName deptId="2">Computer Science</departmentName>
+    <salary currency="USD">$12000</salary>
+    <contact type="home">2057384957</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="024">
+    <fullName>Xavier</fullName>
+    <departmentName deptId="2">Computer Science</departmentName>
+    <salary currency="CAD">$23000</salary>
+    <contact type="home">1125749309</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="025">
+    <fullName>Yiruma</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="USD">$1000</salary>
+    <contact type="mobile">1285020572</contact>
+    <gender>Male</gender>    
+  </employee>
+  <employee empId="026">
+    <fullName>Zankhana Bhatt</fullName>
+    <departmentName deptId="1">Information Technology</departmentName>
+    <salary currency="USD">$99000</salary>
+    <contact type="office">1058275930</contact>
+    <gender>Female</gender>    
+  </employee>
+  <employee empId="027">
+    <fullName>Elexa</fullName>
+    <departmentName deptId="3">Business</departmentName>
+    <salary currency="AUS">$48000</salary>
+    <contact type="mobile">1028572950</contact>
+    <gender>Female</gender>    
+  </employee>
+</class>
