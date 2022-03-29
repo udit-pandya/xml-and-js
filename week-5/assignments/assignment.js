@@ -115,7 +115,7 @@ const renderTable = () => {
             data = data.filter(({ email }) => email.toLowerCase().includes(valueTerm));
             break;
         case 'gender':
-            data = data.filter(({ gender }) => gender.toLowerCase().includes(valueTerm));
+            data = data.filter(({ gender }) => gender.toLowerCase() === valueTerm);
             break;
         case 'ip_address':
             data = data.filter(({ ip_address }) => ip_address.toLowerCase().includes(valueTerm));
@@ -149,7 +149,7 @@ const resetTable = () => {
     const inputControl = document.getElementById(`input-term`);
     inputControl.value = "";
     //window.location = 'http://127.0.0.1:5500/week-5/assignments/assignment.html'
-    window.location = "https://guileless-tiramisu-e0b132.netlify.app/week-5/assignments/assignment.html"
+    window.location = "https://guileless-tiramisu-e0b132.netlify.app/assignment.html"
 
     let data = [
         {
