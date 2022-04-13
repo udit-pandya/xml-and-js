@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #343434;
+    color: azure;
+}
+input, select, label, fieldset {
+    margin: 10px;
+}
+fieldset {
+    max-width: fit-content;
+}
+table {
+    border: 10px;
+    margin: 10px;
+}
+th {
+    padding: 3px;
+    margin: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+td {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+form {
+    background-color: #464646;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=submit],input[type=reset] {
+    color: #464646;
+    background-color: aliceblue;
+    width: 65px;
+    border-radius: 15px;
+    height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+    color: aliceblue;
+    background-color: transparent;
+}
+input[type=]{
+    color: aliceblue;
+    background-color: transparent;
+}
+input[type=text] {
+    width: 165px;
+    border-radius: 15px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 10px;
+}
+select {
+    width: 105px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=checkbox], input[type=radio] {
+    accent-color: #9d3039;
+}
